@@ -1,0 +1,11 @@
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\obj\Debug\netcoreapp3.0\CosSin.csprojAssemblyReference.cache
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\obj\Debug\netcoreapp3.0\CosSin.AssemblyInfoInputs.cache
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\obj\Debug\netcoreapp3.0\CosSin.AssemblyInfo.cs
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.exe
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.deps.json
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.runtimeconfig.json
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.runtimeconfig.dev.json
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.dll
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\bin\Debug\netcoreapp3.0\CosSin.pdb
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\obj\Debug\netcoreapp3.0\CosSin.dll
+C:\Users\Юзверь.DESKTOP-352967K\source\repos\CosSin\CosSin\obj\Debug\netcoreapp3.0\CosSin.pdb
