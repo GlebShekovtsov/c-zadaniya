@@ -12,11 +12,13 @@ namespace ConsoleApp8
             int m = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите день");
             int n = Convert.ToInt32(Console.ReadLine());
+            int p;
             switch(m)
             {
                 case 1:
                     if (n > 31)
                     {
+  
                         Console.WriteLine("Введите корректное значение");
                         return;
                     }
@@ -24,6 +26,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.ReadKey();
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
@@ -39,6 +42,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
 
                     }
@@ -46,6 +50,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
@@ -61,6 +66,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
                     return;
@@ -74,6 +80,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
@@ -89,6 +96,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
                     return;
@@ -102,6 +110,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
@@ -117,6 +126,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
                     return;
@@ -130,6 +140,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
@@ -145,6 +156,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
                     return;
@@ -158,6 +170,7 @@ namespace ConsoleApp8
                     {
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                        n++;
                         n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
@@ -173,6 +186,7 @@ namespace ConsoleApp8
                         n--;
                         Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
                         n++;
+                        n++;
                         Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }
                     return;
@@ -186,6 +200,7 @@ namespace ConsoleApp8
                     {
                     n--;
                     Console.WriteLine($"Предыдущая дата:{n}.{m}.{g}");
+                    n++;
                     n++;
                     Console.WriteLine($"Следующая дата:{n}.{m}.{g}");
                     }

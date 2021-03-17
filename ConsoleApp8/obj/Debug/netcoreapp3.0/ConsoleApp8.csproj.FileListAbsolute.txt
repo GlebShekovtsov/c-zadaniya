@@ -9,3 +9,16 @@ C:\Users\Юзверь.DESKTOP-352967K\source\repos\ConsoleApp8\ConsoleApp8\obj\D
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.AssemblyInfo.cs
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.dll
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.pdb
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.exe
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.deps.json
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.runtimeconfig.json
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.runtimeconfig.dev.json
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.dll
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\bin\Debug\netcoreapp3.0\ConsoleApp8.pdb
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.csprojAssemblyReference.cache
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.AssemblyInfoInputs.cache
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.AssemblyInfo.cs
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.csproj.CoreCompileInputs.cache
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.dll
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.pdb
+F:\c-zadaniya-ConsoleApp8\c-zadaniya-ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.0\ConsoleApp8.genruntimeconfig.cache
