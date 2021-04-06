@@ -7,3 +7,13 @@ C:\Users\Юзверь.DESKTOP-352967K\source\repos\WindowsFormsApp11\WindowsForm
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.csproj.GenerateResource.cache
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
 C:\Users\Юзверь.DESKTOP-352967K\source\repos\WindowsFormsApp11\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.csprojAssemblyReference.cache
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Form1.resources
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.csproj.GenerateResource.cache
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.csproj.CoreCompileInputs.cache
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+F:\c-zadaniya-array1\c-zadaniya-array1\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb

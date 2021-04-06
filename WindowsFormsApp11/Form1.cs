@@ -61,36 +61,6 @@ namespace WindowsFormsApp11
         {
             if (checkBox1.Checked)
             {
-                //int a, b, c, pk;
-                //a = Convert.ToInt32(textBox1.Text);
-                //b = Convert.ToInt32(textBox2.Text);
-                //c = Convert.ToInt32(textBox3.Text);
-                //if (a>b)
-                //{
-                //    pk = a;
-                //    a = b;
-                //    b = pk;
-                //}
-                //else
-                //{
-                //    pk = b;
-                //}
-                //if (pk <= c)
-                //{
-                //    textBox4.Text = Convert.ToString($"{a},{b},{c}");
-                //}
-                //else 
-                //{
-                //if (c <=a)
-                //    {
-                //        textBox4.Text = Convert.ToString($"{c},{a},{b}");
-                //    }
-                //else
-                //    {
-                //        textBox4.Text = Convert.ToString($"{a},{c},{b}");
-                //    }
-                //}
-               
                 int[] mas = {Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text) };
                 int temp;
                 for (int i = 0; i < mas.Length-1; i++)
@@ -109,41 +79,27 @@ namespace WindowsFormsApp11
                 {
                     textBox4.Text +=" " + Convert.ToString(mas[i]);
                 }
-
-
             }
             else if (checkBox2.Checked)
             {
-                //int a, b, c, pk;
-                //a = Convert.ToInt32(textBox1.Text);
-                //b = Convert.ToInt32(textBox2.Text);
-                //c = Convert.ToInt32(textBox3.Text);
-                //if (a < b)
-                //{
-                //    pk = a;
-                //    a = b;
-                //    b = pk;
-                //}
-                //else
-                //{
-                //    pk = b;
-                //}
-                //if (pk >= c)
-                //{
-                //    textBox4.Text = Convert.ToString($"{a},{b},{c}");
-                //}
-                //else
-                //{
-                //    if (c >= a)
-                //    {
-                //        textBox4.Text = Convert.ToString($"{c},{a},{b}");
-                //    }
-                //    else
-                //    {
-                //        textBox4.Text = Convert.ToString($"{a},{c},{b}");
-                //    }
-                //}
-
+                int[] mas = { Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text) };
+                int temp;
+                for (int i = 0; i < mas.Length + 1; i++)
+                {
+                    for (int j = i + 1; j < mas.Length; j++)
+                    {
+                        if (mas[i] < mas[j])
+                        {
+                            temp = mas[i];
+                            mas[i] = mas[j];
+                            mas[j] = temp;
+                        }
+                    }
+                }
+                for (int i = 0; i < mas.Length; i++)
+                {
+                    textBox4.Text += " " + Convert.ToString(mas[i]);
+                }
 
             }
         }
@@ -161,7 +117,9 @@ namespace WindowsFormsApp11
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+         
         }
+
+
     }
 }
