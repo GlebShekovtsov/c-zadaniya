@@ -41,6 +41,7 @@
             this.textBox_login.Name = "textBox_login";
             this.textBox_login.Size = new System.Drawing.Size(196, 20);
             this.textBox_login.TabIndex = 0;
+            this.textBox_login.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_login_KeyDown);
             // 
             // textBox_password
             // 
@@ -49,6 +50,7 @@
             this.textBox_password.PasswordChar = '*';
             this.textBox_password.Size = new System.Drawing.Size(196, 20);
             this.textBox_password.TabIndex = 1;
+            this.textBox_password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_password_KeyDown);
             // 
             // button1
             // 
@@ -58,7 +60,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "ВОЙТИ";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label1
             // 

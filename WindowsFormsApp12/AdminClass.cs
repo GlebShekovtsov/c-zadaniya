@@ -11,10 +11,11 @@ namespace WindowsFormsApp12
     class AdminClass
     {
         DBconnection connect = new DBconnection();
-        public bool insertadmin(string firstname, string lastname, string patronymic, string login, string password, string phone, byte[] image)
+        public bool insertadmin(string role, string firstname, string lastname, string patronymic, string login, string password, string phone, byte[] image)
         {
-            MySqlCommand command = new MySqlCommand("INSERT INTO `admin`(`firstname`, `lastname`, `patronymic`, `login`, `password`, `phone`,`image`)" +
-            " VALUES (@firstname,@lastname,@patronymic,@login,@password,@phone,@image);", connect.getconnection);
+            MySqlCommand command = new MySqlCommand("INSERT INTO `admin`(`role`,`firstname`, `lastname`, `patronymic`, `login`, `password`, `phone`,`image`)" +
+            " VALUES (@role,@firstname,@lastname,@patronymic,@login,@password,@phone,@image);", connect.getconnection);
+            command.Parameters.Add("@role", MySqlDbType.VarChar).Value = role;
             command.Parameters.Add("@firstname", MySqlDbType.VarChar).Value = firstname;
             command.Parameters.Add("@lastname", MySqlDbType.VarChar).Value = lastname;
             command.Parameters.Add("patronymic", MySqlDbType.VarChar).Value = patronymic;
@@ -34,6 +35,22 @@ namespace WindowsFormsApp12
                 return false;
             }
 
+        }
+        public bool deleteadmin(string id)
+        {
+            MySqlCommand command = new MySqlCommand("DELETE FROM `admin` WHERE id = @id;", connect.getconnection);
+            command.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
+            connect.openConnect();
+            if (command.ExecuteNonQuery() == 1)
+            {
+                connect.closeConnect();
+                return true;
+            }
+            else
+            {
+                connect.closeConnect();
+                return false;
+            }
         }
         public DataTable getAdminList()
         {
